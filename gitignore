@@ -1,0 +1,27 @@
+
+# Executables
+*.exe
+*.out
+echo
+
+# Private conversation history
+echo_history.txt
+*.log
+
+# Private voice samples
+*.mp3
+*.wav
+*.m4a
+*.webm
+
+# API keys and environment files
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
