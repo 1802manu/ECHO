@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dear Aditya Vardhan Sir 💗</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', sans-serif;
+    background: linear-gradient(135deg, #ffc0cb, #ff69b4, #ffe4ec);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    color: #8b004f;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    padding: 45px 30px;
+    text-align: center;
+    background: rgba(255,255,255,0.85);
+    border: 3px solid white;
+    border-radius: 30px;
+    box-shadow: 0 0 35px rgba(255,20,147,0.35);
+    animation: appear 1.2s ease;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ff1493;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px pink;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    color: #c21870;
+}
+
+.heart {
+    font-size: 55px;
+    animation: heartbeat 1s infinite;
+    margin: 15px;
+}
+
+.message {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    margin: 20px 0;
+}
+
+.highlight {
+    color: #ff1493;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.marks {
+    background: #ffb6d5;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 25px 0;
+    border: 2px dashed #ff1493;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background: #ff1493;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px #ff69b4;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #d60073;
+}
+
+#surprise {
+    display: none;
+    margin-top: 25px;
+    font-size: 1.3rem;
+    color: #e60073;
+    font-weight: bold;
+    animation: appear 0.8s ease;
+}
+
+.floating-heart {
+    position: fixed;
+    bottom: -30px;
+    font-size: 25px;
+    animation: floatUp 6s linear infinite;
+    pointer-events: none;
+    z-index: 1;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #a00055;
+    line-height: 1.8;
+}
+
+@keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media(max-width: 500px) {
+    h1 { font-size: 1.9rem; }
+    .message { font-size: 1rem; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="heart">💗</div>
+
+    <h1>Dear Aditya Vardhan Sir! 💖</h1>
+
+    <p class="subtitle">
+        A little love letter from your biggest fan 🎀
+    </p>
+
+    <div class="message">
+        Sir, let's make one thing very clear...
+
+        <br><br>
+
+        <span class="highlight">
+            YOU ARE MY FAVOURITE FACULTY! 💖
+        </span>
+
+        <br><br>
+
+        Your teaching is amazing, your presence is iconic,
+        and your student Jesta is currently fighting for his
+        academic life. 😭💗
+
+    </div>
+
+    <div class="marks">
+
+        <h2>🥺 A HUMBLE REQUEST 🥺</h2>
+
+        <p class="message">
+            Dear Sir, I am begging you with all my heart...
+
+            <br><br>
+
+            Please bless me with
+
+            <span class="highlight">FULL MARKS</span>
+
+            in
+
+            <br><br>
+
+            <span class="highlight">
+                WEB TECHNOLOGY CA3 💻
+            </span>
+
+            <br><br>
+
+            May my answers be correct,
+            my code be error-free,
+            and my marks be absolutely PERFECT! 💕
+
+            <br><br>
+
+            After all, a little kindness towards
+            your student Jesta wouldn't hurt, right Sir? 🥹
+        </p>
+
+    </div>
+
+    <div class="heart">🩷</div>
+
+    <p class="message">
+        With lots of respect, love and endless hopes,
+        <br>
+        <span class="highlight">JESTA</span>
+        <br>
+        Class <span class="highlight">3CSE12</span> 🎀
+    </p>
+
+    <button onclick="showSurprise()">
+        Sir, Please Click Here! 💌
+    </button>
+
+    <div id="surprise">
+
+        🌸 MANIFESTING 100/100! 🌸
+
+        <br><br>
+
+        Your favourite student Jesta is counting on you, Sir! 🥹💗
+
+        <br><br>
+
+        THANK YOU, ADITYA VARDHAN SIR! 🎀
+
+        <br><br>
+
+        From Jesta of 3CSE12, with lots of love! 💕
+
+    </div>
+
+    <footer>
+        Made with infinite love, pink hearts & academic desperation 💗
+        <br>
+        From: Jesta | Class: 3CSE12
+        <br>
+        © 2026 | Operation Full Marks CA3 🎀
+    </footer>
+
+</div>
+
+<script>
+function showSurprise() {
+    const surprise = document.getElementById("surprise");
+
+    surprise.style.display = "block";
+
+    for (let i = 0; i < 30; i++) {
+        createHeart();
+    }
+}
+
+function createHeart() {
+    const heart = document.createElement("div");
+
+    heart.classList.add("floating-heart");
+
+    const hearts = ["💗", "💕", "💖", "💘", "🎀", "🌸"];
+
+    heart.innerHTML = hearts[
+        Math.floor(Math.random() * hearts.length)
+    ];
+
+    heart.style.left = Math.random() * 100 + "vw";
+
+    heart.style.animationDuration =
+        (3 + Math.random() * 4) + "s";
+
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+        heart.remove();
+    }, 7000);
+}
+
+// Continuously floating hearts
+setInterval(createHeart, 500);
+
+</script>
+
+</body>
+</html>
